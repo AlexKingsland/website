@@ -1,0 +1,169 @@
+{
+  "main": {
+    "name":"Alexander Kingsland",
+    "occupation":"Software Engineering Student",
+    "description":"Scroll down for an overview of my profile",
+    "image":"headshot_resize.jpeg",
+    "bio":{
+      "statement1":"I'm a Toronto based software engineering student graduating April 2021! I'm most intrigued by creating innovative software solutions to tackle challenging real-world problems, particularly in the domains of the finance and automotive sector.",
+      "statement2":"Outside of my career ambitions when I have some time to kill you can always find me doing one of the three things; Playing the guitar, exercising, or working with cars.",
+      "statement3":"I'm always willing to connect and have a chat about anything you may find interesting about me or want to know more about, so please reach out via my contact information below!"
+    },
+    "contactmessage":"Please feel free to get in touch with me to chat.",
+    "email": "kingslaa@mcmaster.ca",
+    "phone": "(647) 767 8264",
+    "address":{
+      "street":"51 Beasley Drive",
+      "city":"Toronto",
+      "state":"Canada",
+      "zip": "L4C 7Y6"
+    },
+    "website": "http://alexkingsland.me",
+    "resumedownload":"Alex_Kingsland_Resume_2020.pdf",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/alex.kingsland.54",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/alexkingsland/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/alex.kingsland/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/AlexKingsland",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"These are the skills I am most proficient in and have had the most workplace experience with, always looking to improve my current skill set and add more to the list!",
+    "education":[
+      {
+        "school":"McMaster University",
+        "degree":"Software Engineering",
+        "graduated":"April 2021",
+        "description1":"Cummulative 3.5 GPA on a 4.0 scale.",
+        "description2":"Recieved Golden Key, awarded to students in the Engineering Faculty with a Cummulative GPA in the top 15th percentile.",
+        "description3":"Relevant Courses: Architecture Design, Algorithms and Complexities, Programming Principles, Statistics, Web Design, Parallel Computing, Databases, Machine Learning.",
+        "image":"mac_logo_crop.png",
+        "download":"third_year_first_sem.pdf"
+      }
+    ],
+    "work":[
+      {
+        "company":"MDA Corporation",
+        "title":"Software Engineering Intern",
+        "years":"April 2019 - August 2020",
+        "description1":"Developed a Machine Learning Pipeline which leverages the TensorFlow Framework to predict the maximum rate of the Canadarm2 given an initial load configuration.",
+        "description2":"Collaborated with Engineers of various disciplines to perform rigorous testing of the final pipeline yielding an average prediction accuracy within 10% of the test data.",
+        "description3":"Created documentation and courseware modules covering concepts implemented in the pipeline, held weekly meetings with other engineers to walk through the design.",
+        "image":"mda_logo_crop.png",
+        "download":"mda_reference.pdf"
+      },
+      {
+        "company":"Johnson Controls",
+        "title":"Software Engineering Intern",
+        "years":"July 2018 - August 2018",
+        "description1":"Performed stress tests on home security systems, also verified functionality as according to requirement specifications.",
+        "description2":"Setup firmware patches of individual security system components to be used in engineering field trials.",
+        "description3":"Worked alongside a team of engineers in order to create a document to track bugs found from field testing.",
+        "image":"johnson_controls_logo_cropped.png",
+        "download":"johnson_controls_reference.pdf"
+      },
+      {
+        "company":"Exactus Energy",
+        "title":"Engineering Intern",
+        "years":"June 2017 - November 2017",
+        "description1":"Worked with clients daily by visiting buildings to record the dimensions of attic structure, confirm solar panel placement, and sign authorization papers.",
+        "description2":"Optimized the solar panel layout on the client's roof in AutoCAD, the design is approved by a professional engineer and then sent to the builders.",
+        "description3":"Exposure to a start-up environment required taking on tasks involving working with engineers of other disciplines in order to meet company deadlines.",
+        "image":"exactus_logo_crop.png",
+        "download":"exactus_reference.pdf"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"90%"
+      },
+      {
+        "name":"Project Management / Collaboration",
+        "level":"80%"
+      },
+      {
+        "name":"Git / Scripting / Linux",
+        "level":"80%"
+      },
+      {
+        "name":"Numpy / Pandas / HDF5 / TensorFlow",
+        "level":"75%"
+      },
+      {
+        "name":"Java / Unity / Eclipse / NetBeans",
+        "level":"75%"
+      },
+      {
+        "name":"ReactJs / JavaScript / HTML / CSS",
+        "level":"75%"
+      },
+      {
+        "name":"Latex / Documentation",
+        "level":"70%"
+      },
+      {
+        "name":"C / MATLAB / R",
+        "level":"65%"
+      },
+      {
+        "name":"MariaDB / SQL",
+        "level":"50%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"HedgeHog",
+        "category":"An AlgoTrading platform for creating, analyzing, and automating trading strategies (Currently adding functionality and working on a front-end)",
+        "image":"hedgehog.png",
+        "url":"https://github.com/AlexKingsland/hedgehog"
+      },
+      {
+        "title":"ProFlightPhotography",
+        "category":"A start-up founded by myself selling the service of aerial drone photography",
+        "image":"proflightphotos.png",
+        "url":"https://www.proflightphotos.ca/"
+      },
+      {
+        "title":"Personal Website",
+        "category":"A React template based personal portfolio website",
+        "image":"website_photo.png",
+        "url":"http://alexkingsland.me/"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Alex works well independently and seeks help once he has exhausted his own abilities. I recommend his candidacy without reservation.",
+        "user":"Nader Abu El Samid... Senior MTS, MDA Corporation"
+      },
+      {
+        "text":"During his time with us, Alex has been very hard working and dedicated to the tasks at hand.",
+        "user":"Derek Smith... Systems Integration Team Lead, Johnson Controls"
+      },
+      {
+        "text":"There is no doubt I would strongly recommend Alex on both a personal and professional level.",
+        "user":"Matthew Jaglowitz... CEO, Exactus Energy"
+      }
+    ]
+  }
+}
