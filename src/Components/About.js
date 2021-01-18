@@ -27,7 +27,7 @@ class About extends Component {
          <div className="eight columns main-col">
             <h2>About Me</h2>
 
-            <p>{bio1}</p>
+            <p>{bio1}<text style={{color: "white"}}>finance</text> and <text style={{color: "white"}}>automotive</text> sector.</p>
             <p>{bio2}</p>
             <p>{bio3}</p>
             <div className="row">

@@ -46,7 +46,7 @@ header .download {
 }
 header .download .button {
    margin-top: 0px;
-   background: rgba(68, 68, 68, 0.8);
+   background: rgba(30, 30, 30, 0.8);
 }
 header .download .button:hover {
    background: #fff;

@@ -20,7 +20,7 @@ class Portfolio extends Component {
                          title: "Drone Photography Start Up",
                          description1: "Founded a Start-Up which provides the service of aerial photography targeting realtors and private car collectors.",
                          description2: "Developed an entrepreneurial mindset as a result of having to learn the basics of how to start a company and how to market myself.",
-                         description3: "Brought on an associate and taught them how to operate a drone and professionally represent the company in order to assist me in cold calling clients, and going to various client sites to take photos when I was busy.",
+                         description3: "Brought on an associate and taught them how to operate a drone and professionally represent the company in order to assist me in cold calling clients, and going to various client sites to take photos when I was unavailable.",
                          tech_stack: "DJI Pro App, DJI Phantom 4 Advanced, Adobe Photoshop, Adobe Lightroom, ibapi, Dropbox",
                          image:"../../images/portfolio/proflightphotos.png"
                        },
@@ -99,7 +99,7 @@ class Portfolio extends Component {
           </div>
           <div className="twelve columns">
           <center>
-                <h4>Page {this.state.counter%this.state.total_projects+1} of {this.state.total_projects}</h4>
+                <h4>Project {this.state.counter%this.state.total_projects+1} of {this.state.total_projects}</h4>
           </center>
           </div>
           </div>
