@@ -11,12 +11,12 @@ class Header extends Component {
                                 `url(images/background_pics/rolls.jpeg)`,
                                 `url(images/background_pics/DJI_0030.jpg)`
                                 ],
-                  index: 0,
+                  counter: 1000,
                   total_images: 5};
   }
 
-  next() { this.setState({index: (this.state.index+1)%this.state.total_images  }); }
-  prev() { this.setState({index: Math.abs(this.state.index-1)%this.state.total_images  }); }
+  next() { this.setState({counter: this.state.counter+1  }); }
+  prev() { this.setState({counter: this.state.counter-1  }); }
 
   render() {
 
@@ -37,7 +37,7 @@ class Header extends Component {
     }
 
   return (
-    <header id="home" style={{background: this.state.background[this.state.index]}}>
+    <header id="home" style={{background: this.state.background[this.state.counter%this.state.total_images]}}>
 
     <nav id="nav-wrap">
 
@@ -51,7 +51,6 @@ class Header extends Component {
           <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
           <li><a className="smoothscroll" href="#skills">Skills</a></li>
           <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-          <li><a className="smoothscroll" href="#contact">Contact</a></li>
        </ul>
 
     </nav>
