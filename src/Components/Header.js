@@ -8,11 +8,10 @@ class Header extends Component {
     this.state = {background: ['url(images/background_pics/_V7A0512.JPG)',
                                 `url(images/background_pics/_V7A0793.jpg)`,
                                 `url(images/background_pics/laf.jpeg)`,
-                                `url(images/background_pics/rolls.jpeg)`,
                                 `url(images/background_pics/DJI_0030.jpg)`
                                 ],
                   counter: 1000,
-                  total_images: 5};
+                  total_images: 4};
   }
 
   next() { this.setState({counter: this.state.counter+1  }); }
@@ -27,7 +26,7 @@ class Header extends Component {
       var occupation= this.props.data.occupation;
       var description= this.props.data.description;
       var city= this.props.data.address.city;
-      var resumeDownload = "downloads/Alex_Kingsland_Resume_2020.pdf";
+      var resumeDownload = "downloads/Alex_Kingsland_Resume.pdf";
       
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>

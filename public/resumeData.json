@@ -6,7 +6,7 @@
     "image":"headshot_resize.jpeg",
     "bio":{
       "statement1":"I'm a Toronto based software engineering student graduating April 2021. I'm most intrigued by creating innovative software solutions to tackle challenging real-world problems, with an emphasis in the domains of the ",
-      "statement2":"Outside of my career ambitions and various software projects when I have some time to kill you can always find me doing one of the four things; Playing the guitar, exercising, investing, photography, or working with cars.",
+      "statement2":"Outside of my career ambitions and various software projects when I have some time to kill you can always find me doing one of the five things; Playing the guitar, exercising, investing, photography, or working with cars.",
       "statement3":"I'm always willing to connect and have a chat about anything you may find interesting about me or want to know more about, so please reach out via my contact information below!"
     },
     "contactmessage":"Please feel free to get in touch with me to chat.",
@@ -19,7 +19,7 @@
       "zip": "L4C 7Y6"
     },
     "website": "http://alexkingsland.me",
-    "resumedownload":"Alex_Kingsland_Resume_2020.pdf",
+    "resumedownload":"Alex_Kingsland_Resume.pdf",
     "social":[
       {
         "name":"facebook",
@@ -50,11 +50,11 @@
         "school":"McMaster University",
         "degree":"Software Engineering",
         "graduated":"April 2021",
-        "description1":"Cummulative 3.5 GPA on a 4.0 scale.",
+        "gpa":"3.6 GPA",
         "description2":"Recieved Golden Key, awarded to students in the Engineering Faculty with a Cummulative GPA in the top 15th percentile.",
-        "description3":"Relevant Courses: Architecture Design, Algorithms and Complexities, Programming Principles, Statistics, Web Design, Parallel Computing, Databases, Machine Learning.",
+        "description3":"Architecture Design, Algorithms and Complexities, Programming Principles, Networks, Statistics, Web Design, Parallel Computing, Databases, Machine Learning.",
         "image":"mac_logo_crop.png",
-        "download":"third_year_first_sem.pdf"
+        "download":"Unofficial_Transcript_Marked.pdf"
       }
     ],
     "work":[
@@ -65,6 +65,7 @@
         "description1":"Developed a Machine Learning Pipeline which leverages the TensorFlow Framework to predict the maximum rate of the Canadarm2 given an initial load configuration.",
         "description2":"Collaborated with Engineers of various disciplines to perform rigorous testing of the final pipeline yielding an average prediction accuracy within 10% of the test data.",
         "description3":"Created documentation and courseware modules covering concepts implemented in the pipeline, held weekly meetings with other engineers to walk through the design.",
+        "tech_stack": "Python, TensorFlow 1.x/2.x, HDF5, Numpy, MATLAB, Simulink, Matplotlib, Git, Oracle VM, Bash, Paramiko, Git, MS Server Management",
         "image":"mda_logo_crop.png",
         "download":"mda_reference.pdf"
       },
@@ -75,6 +76,7 @@
         "description1":"Performed stress tests on home security systems, also verified functionality as according to requirement specifications.",
         "description2":"Setup firmware patches of individual security system components to be used in engineering field trials.",
         "description3":"Worked alongside a team of engineers in order to create a document to track bugs found from field testing.",
+        "tech_stack": "MS Excel, Git, Bash, Python, MS Word, Windows, Linux",
         "image":"johnson_controls_logo_cropped.png",
         "download":"johnson_controls_reference.pdf"
       },
@@ -85,6 +87,7 @@
         "description1":"Worked with clients daily by visiting buildings to record the dimensions of attic structure, confirm solar panel placement, and sign authorization papers.",
         "description2":"Optimized the solar panel layout on the client's roof in AutoCAD, the design is approved by a professional engineer and then sent to the builders.",
         "description3":"Exposure to a start-up environment required taking on tasks involving working with engineers of other disciplines in order to meet company deadlines.",
+        "tech_stack": "AutoCAD, MS Word, MS Excel, DJI Pro App, DJI Phantom 3 Pro, Dropbox",
         "image":"exactus_logo_crop.png",
         "download":"exactus_reference.pdf"
       }
@@ -96,15 +99,15 @@
       },
       {
         "name":"Project Management / Collaboration",
-        "level":"80%"
+        "level":"85%"
       },
       {
         "name":"Git / Scripting / Linux",
-        "level":"80%"
+        "level":"85%"
       },
       {
         "name":"Numpy / Pandas / HDF5 / TensorFlow",
-        "level":"75%"
+        "level":"80%"
       },
       {
         "name":"Java / Unity / Eclipse / NetBeans",
@@ -115,16 +118,16 @@
         "level":"75%"
       },
       {
-        "name":"Latex / Documentation",
+        "name":"MATLAB / Documentation / BASH",
+        "level":"75%"
+      },
+      {
+        "name":"C / C++ / LaTeX / R",
         "level":"70%"
       },
       {
-        "name":"C / MATLAB / R",
+        "name":"MongoDB / Docker / TypeScript",
         "level":"65%"
-      },
-      {
-        "name":"MariaDB / SQL",
-        "level":"50%"
       }
     ]
   },

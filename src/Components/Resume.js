@@ -11,12 +11,12 @@ class Resume extends Component {
 
           <div className="eight columns">
           
-          <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
+          <p className="info" style={{color: "black"}}>{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
           
           <ul>
-          <li>{education.description1}</li>
+          <li>Achieving a cummulative <b style={{color: "black"}}>{education.gpa}</b> on a 4.0 scale.</li>
           <li>{education.description2}</li>
-          <li>{education.description3}</li>
+          <li><b style={{color: "black"}}>Relevant Courses: </b>{education.description3}</li>
           </ul>
           {/**
           <div className="download">
@@ -37,11 +37,12 @@ class Resume extends Component {
         return <div className="row" key={work.company}>
           <h3>{work.company}</h3>
           <div className="eight columns">
-            <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
+            <p className="info" style={{color: "black"}}>{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
             <ul>
             <li>{work.description1}</li>
             <li>{work.description2}</li>
             <li>{work.description3}</li>
+            <li><b style={{color: "black"}}>Tech Stack: </b>{work.tech_stack}</li>
             </ul>
             <div className="download">
             <center>
